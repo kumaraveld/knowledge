@@ -1,0 +1,68 @@
+
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/configure-iscsi-target-initiator-on-centos-7-rhel7.html
+https://www.tecmint.com/install-mariadb-in-centos-7/
+https://www.linuxtechi.com/integrate-rhel7-centos7-windows-active-directory/
+https://www.unixmen.com/setting-dns-server-centos-7/
+https://www.unixmen.com/set-grub2-password-rhel7centos-7/
+
+
+https://www.computernetworkingnotes.com/linux-tutorials/rhce-study-guide/
+https://www.linuxbuzz.com/step-by-step-linux-rhel-6-7-boot-process-for-beginners/
+https://www.thegeekdiary.com/centos-rhel-7-change-default-kernel-boot-with-old-kernel/ (to change kernal default)
+
+https://www.rayheffer.com/essential-linux-skills-with-centos-7-managing-services-with-systemd/ (process management slide)
+
+http://ask.xmodulo.com/configure-static-ip-address-centos7.html
+https://www.businessnewsdaily.com/11037-kickstart-linux-automation.html
+
+
+
+
+https://www.geeksforgeeks.org/date-command-linux-examples/
+https://www.geeksforgeeks.org/access-control-listsacl-linux/
+https://www.tecmint.com/install-ntp-server-in-centos/
+
+
+
+https://www.computernetworkingnotes.com/rhce-study-guide/basic-linux-commands-for-network-testing.html 1
+https://www.computernetworkingnotes.com/rhce-study-guide/network-configuration-files-in-linux-explained.html 2
+https://www.computernetworkingnotes.com/rhce-study-guide/how-to-configure-ip-address-in-linux.html 3
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/change-default-runlevel-in-centos-7-rhel-7.html
+
+
+https://www.computernetworkingnotes.com/rhce-study-guide/rhce-practice-lab-setup-in-vmware-and-in-virtualbox.html (1st link)
+https://www.computernetworkingnotes.com/rhce-study-guide/rhel-installation-step-by-step-explained-with-screenshots.html (2nd Link)
+
+#################################################
+firefox& (start the background)
+jobs
+fg %(Job id) to bring process forground
+ctrl+z
+bg %(jobid) to make the process background again
+
+
+find -iname '*.txt' -execdir rm {} \;
+find . -exec grep chrome {} \;
+find . -exec ls {} +
+
+Symmetric Encryption:
+
+Same key is used for Encryption and Decryption
+Both server and client should have same key for encryption
+Vulnerable to attack
+Examples: Blowfish, AES, RC4, DES, RC5, and RC6
+Asymmetric encryption:
+
+Server generates its own public and private key
+Client generates its own public and private key
+Server and client exchanges their public keys
+Server uses client’s public key to encrypt data
+Client uses server ‘s public key to encrypt data
+Server uses its private key to decrypt data sent by client
+Client uses its private key to decrypt data sent by server
+example: EIGamal, RSA, DSA, Elliptic curve techniques, PKCS.
+
+https://www.computernetworkingnotes.com/rhce-study-guide/firewalld-basic-concepts-explained-with-examples.html 1
+https://www.computernetworkingnotes.com/rhce-study-guide/how-to-configure-firewalld-in-linux.html 2
+http://aix4admins.blogspot.com/2011/05/server-computer-that-makes-its-file.html
+
